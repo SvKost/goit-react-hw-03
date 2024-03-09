@@ -1,11 +1,14 @@
 import Contact from "../Contact/Contact";
 
-const ContactList = () => {
+const ContactList = ({ contacts, onDelete }) => {
   return (
-    <>
-      <ContactList />
-      <Contact />
-    </>
+    <ul>
+      {contacts.map((contact) => (
+        <li key={contact.id}>
+          <Contact data={contact} onDelete={onDelete} />
+        </li>
+      ))}
+    </ul>
   );
 };
 
