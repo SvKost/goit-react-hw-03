@@ -7,7 +7,7 @@
 }
 
 .label {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .input {
@@ -16,7 +16,7 @@
   align-items: center;
   padding: 8px 15px;
   margin-bottom: 4px;
-  border: solid 2px grey;
+  border: solid 1px grey;
   border-radius: 5px;
 }
 
